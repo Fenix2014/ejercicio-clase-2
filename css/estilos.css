@@ -42,10 +42,11 @@ header #avatar img
 
 header #avatar
 {
+    position: absolute;
     float: right;
     top: 0;
     right: 0;
-position: absolute;
+
 }
 
 header h1
@@ -54,4 +55,103 @@ header h1
     font-weight: normal;
     margin:  0em 70em 0em 0em
     
+}
+
+nav
+{
+    background: #63bcb8;
+        box-shadow: rgba(0,0,0,0.5) 0px 2px 10px;
+    padding: 0 0.5em;
+    position:relative;
+}
+    nav ul li
+{
+    display: inline-block;
+    margin: 0 1em 0 0;
+    padding: 0.5em 0 0.5em 0
+}
+nav ul li a
+{
+color: white;
+    text-decoration: :none;
+    padding: 0 0.5em;
+    margin: 0 20px 0 0;
     
+}
+
+nav ul
+{
+margin: 0 8px 0 0
+}
+nav ul #publicar
+{
+position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0 0 0 1em;
+    
+}
+ nav ul #publicar a
+{
+background: #297571;
+    border-radius:  5px;
+    padding: 0.8em 0.5em;
+    box-shadow:  rgba(0,0,0,0.5) 5px 5px 10px;
+    text-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+    font-style: italic;
+}
+#contenido
+{
+margin: 1em
+}
+#contenido .item
+{
+background: #fff;
+    margin-bottom: 3em;
+    border-bottom: solid #2e7476 3px;
+    min-height: 130px;
+}
+
+#contenido .item .img_item img{
+    width: 85px;
+
+}
+
+#contenido .item .img_item 
+{
+float: left;
+margin: 0 1em 0 0;
+}
+ #contenido .item .autor_item{
+ font-size: 1.2em;
+     font-style: italic;
+     color: #988b8b;
+     padding: 0.8em 0 0;
+  }
+#contenido .item .datosautor_item{
+color: #aaa;
+}
+#contenido .item .datosautor_item a{
+color: #26738d;
+    text-decoration: none
+}
+#contenido .item .info_item 
+{
+ 
+}
+
+#contenido .item .info_item .tag_item{
+border-radius: 0.5em;
+    background: #f56363;
+    padding: 0.2em 0.5em;
+    float: left;
+    color: white;
+    text-decoration: none;
+        
+}
+#contenido .item .info .tiempo_item
+{
+    position: absolute;
+right: 0;
+}
+
